@@ -9,7 +9,8 @@
     "dev": "tsc && func start"
   },
   "dependencies": {
-    "dotenv": "16.4.5"
+    "@pulumi/pulumi": "3.0.0",
+    "@pulumi/azure-native": "2.0.0"
   },
   "devDependencies": {
     "@types/node": "20.11.30",

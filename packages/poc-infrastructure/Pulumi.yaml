@@ -1,0 +1,3 @@
+name: pulumi-generated
+runtime: nodejs
+description: A minimal Azure Native TypeScript Pulumi program
