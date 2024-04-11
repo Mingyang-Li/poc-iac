@@ -11,6 +11,6 @@
 
     // Standard project config
     "declaration": false,
-    "baseUrl": ".",
+    "baseUrl": "."
   }
 }

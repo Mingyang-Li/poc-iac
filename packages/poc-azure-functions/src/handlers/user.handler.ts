@@ -4,7 +4,7 @@ import {
   HttpResponseInit,
   InvocationContext,
 } from '@azure/functions';
-import * as service from '../services/user.service'
+import * as service from '../services/user.service';
 
 export const handler = async (
   request: HttpRequest,
@@ -18,7 +18,7 @@ export const handler = async (
 
   if (request.method === 'POST') {
     const created = service.create();
-    if (created !== true) return { status: 400 }
+    if (created !== true) return { status: 400 };
     return { status: 201 };
   }
 };
