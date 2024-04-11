@@ -1,0 +1,26 @@
+{
+    "name": "@poc/azure-functions",
+    "version": "1.0.0",
+    "main": "dist/handlers/*.js",
+    "scripts": {
+      "build": "tsc",
+      "lint": "eslint .",
+      "watch": "tsc -w",
+      "clean": "rimraf dist",
+      "dev": "tsc && func start"
+    },
+    "dependencies": {
+      "@azure/functions": "4.3.0",
+      "dotenv": "16.4.5",
+      "tsc-alias": "1.8.8",
+      "zod": "3.22.4"
+    },
+    "devDependencies": {
+      "@types/node": "20.11.30",
+      "azure-functions-core-tools": "4.0.5611",
+      "eslint-config-custom": "workspace:*",
+      "rimraf": "5.0.0",
+      "tsconfig": "workspace:*",
+      "typescript": "5.4.3"
+    }
+  }
