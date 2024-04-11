@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // azure functions config
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es6",
+
+    "sourceMap": true,
+    "inlineSources": true,
+
+    // Standard project config
+    "declaration": false,
+    "baseUrl": "."
+  }
+}
