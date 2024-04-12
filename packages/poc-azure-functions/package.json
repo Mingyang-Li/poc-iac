@@ -10,7 +10,7 @@
     "dev": "tsc && func start"
   },
   "dependencies": {
-    "@azure/functions": "4.3.0"
+    "@azure/functions": "4.4.0"
   },
   "devDependencies": {
     "@types/node": "20.11.30",
