@@ -40,8 +40,8 @@ importers:
         specifier: workspace:*
         version: link:../../shared/eslint-config-custom
       rimraf:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 5.0.5
+        version: 5.0.5
       tsconfig:
         specifier: workspace:*
         version: link:../../shared/tsconfig
@@ -65,8 +65,8 @@ importers:
         specifier: workspace:*
         version: link:../../shared/eslint-config-custom
       rimraf:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 5.0.5
+        version: 5.0.5
       tsconfig:
         specifier: workspace:*
         version: link:../../shared/tsconfig
@@ -3526,8 +3526,8 @@ packages:
     hasBin: true
     dev: true
 
-  /rimraf@5.0.0:
-    resolution: {integrity: sha512-Jf9llaP+RvaEVS5nPShYFhtXIrb3LRKP281ib3So0KkeZKo2wIKyq0Re7TOSwanasA423PSr6CCIL4bP6T040g==}
+  /rimraf@5.0.5:
+    resolution: {integrity: sha512-CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
