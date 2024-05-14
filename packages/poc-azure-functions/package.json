@@ -13,7 +13,7 @@
     "@azure/functions": "4.3.0"
   },
   "devDependencies": {
-    "@types/node": "20.11.30",
+    "@types/node": "20.12.12",
     "azure-functions-core-tools": "4.0.5611",
     "eslint-config-custom": "workspace:*",
     "rimraf": "5.0.0",
